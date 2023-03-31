@@ -1,0 +1,51 @@
+/* style the plus and minus buttons and quantity input */
+.qty-input,
+.minus-btn,
+.plus-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+.qty-input {
+  width: 50px;
+  text-align: center;
+}
+.minus-btn,
+.plus-btn {
+  width: 25px;
+  height: 25px;
+  line-height: 1;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.minus-btn:hover,
+.plus-btn:hover {
+  background-color: #ccc;
+}
+/* style the delete and like buttons */
+.delete-btn,
+.like-btn {
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+}
+.like-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+.like-btn.liked {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+  color: #fff;
+}
+/* style the cart total */
+.cart-total {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 20px;
+}
